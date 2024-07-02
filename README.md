@@ -1,4 +1,4 @@
-# not-a-robot
+# Not-A-Robot
 A test used to identify if you are secretly a robot or not. </br>
 
 **It will play sounds and you have to identify what sound it is**</br>
