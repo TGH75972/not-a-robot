@@ -29,8 +29,10 @@ function submitGuess() {
     
     if (userGuess === currentSound.name) {
         result.textContent = 'Correct!';
+        result.style.color = 'green';
     } else {
         result.textContent = `Wrong! It was a ${currentSound.name}.`;
+        result.style.color = 'red';
         wrongGuesses++;
         updateSuspiciousLevel();
     }
