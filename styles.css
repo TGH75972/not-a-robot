@@ -92,3 +92,22 @@ input {
     justify-content: center;
     font-weight: bold;
 }
+
+#arrow {
+    top: 130px;
+    left: 650px;
+    position: absolute;
+    font-size: 2em;
+    animation: arrowAnimation 1s infinite, arrowColorChange 2s infinite;
+}
+
+@keyframes arrowAnimation {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+@keyframes arrowColorChange {
+    0% { color: black; }
+    50% { color: green; }
+    100% { color: black; }
+}
